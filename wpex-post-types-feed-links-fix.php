@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: WPEX Post Types Feed Link Fix
-Plugin URI: http://www.wpexplorer.com
-Description: Fixes 404 errors on custom post types due to WP automatic-feed-links bug
+Plugin URI: https://github.com/wpexplorer/wpex-post-types-feed-links-fix/blob/master/wpex-post-types-feed-links-fix.php
+Author URI: http://www.wpexplorer.com
+Description: Removes broken comments feed link on custom post types registered with has_archive set to false a known bug https://core.trac.wordpress.org/ticket/24867
 Author: AJ Clarke
 Version: 1.0
-Author URI: http://www.wpexplorer.com
 */
 
 function wpex_post_types_feed_link_fix() {
